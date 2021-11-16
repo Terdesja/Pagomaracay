@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: White;"></ion-menu-button>
+    </ion-buttons>
+    <ion-button fill="clear" style="display: block;">
+      <p style="font-size: 25px; font-weight: bold; color: White;">
+        Inicio
+      </p>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row size="50">
+  <ion-card *ngFor="let p of products | async" (click)="p.expanded = !p.expanded">
+    <ion-thumbnail slot="start"></ion-thumbnail> 
+
+    <ion-label class="ion-tex-wrap"> 
+      <ion-img [src]="p.image"></ion-img>
+      {{ p.title }}<br>
+    <b>{{ p.price | currency:'USD' }}</b>
+    <p>{{ p.pricebulto | currency:'USD' }} Precio por Bulto </p>
+    <div [hidden]=!p.expanded>
+      {{ p.descipction }}
+    </div>
+    </ion-label>
+
+    <ion-row size="10" class="pp">
+      <ion-col size="5" style="padding-left: 0px;
+      padding-right: 0px">
+        <ion-button (click)="addToCart(sevent, p)" fill="clear">
+          <ion-icon name="add" slot="icon-only" ></ion-icon>
+        </ion-button>
+
+      </ion-col>
+      <ion-col size="2" style="padding-top: 18px;
+      padding-left: 11px;">
+        {{ cart[p.id] || 0}}
+      </ion-col>
+      <ion-col size="5" style="padding-left: 0px;
+      padding-bottom: 0px;">
+        <ion-button (click)="removeFromCart(sevent,p)" fill="clear" [disable]=!cart[p.id]>
+          <ion-icon name="remove" slot="icon-only"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  
+    </ion-card>
+  </ion-row>
+ </ion-grid>
+ <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button (click)="openCart()" color="secondary" #myfab>
+    <ion-icon name="cart"></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+   
+</ion-content>
+ 

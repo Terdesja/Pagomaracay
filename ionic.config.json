@@ -1,0 +1,8 @@
+{
+  "name": "compripago",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

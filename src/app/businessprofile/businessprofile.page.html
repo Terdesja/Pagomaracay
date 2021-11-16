@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: White;"></ion-menu-button>
+    </ion-buttons>
+    <ion-button fill="clear" style="display: block;">
+      <p style="font-size: 15px; font-weight: bold; color: White;">
+        Distribuidora Familia LÓNG c.a
+      </p>
+    </ion-button>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon style="color: White;" name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-infinite-scroll>
+    <div style="height: -webkit-fill-available;">
+      <ion-card style="background-color: darkgray; height: -webkit-fill-available;">
+        <div style="text-align: center;     margin-top: 10px;">
+          <img style="border-radius: 50%; border: 4px solid #046edc; width: 175px; height: 175px;"
+            src="assets/imagennegocio/Flong.jpeg">
+        </div>
+
+        <div>
+          <p style="color: white; font-weight: bold; font-size: 20px; font-family: sans-serif;">
+            Direccion:
+          </p>
+          <p style="color: white; font-weight: bold; font-size: 20px; font-family: sans-serif; margin-top: -15px;">
+            Av.intercomunal Turmero Maracay
+          </p>
+        </div>
+        <ion-card style="border: 2px solid #046edc; background-color: white;">
+          <p style="color: black; font-weight: bold; font-size: 25px; font-family: sans-serif; margin-bottom: 0; text-align: center;">
+            Categorias:
+          </p>
+          <ion-row>
+            <ion-col>
+              <ion-card-content>
+                <img src="assets/botones/Botones higiene3.png" style="width : 100% ; height : 100%"
+                  (click)="goToPagina()">
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+
+          <ion-row>
+            <ion-col>
+              <ion-card-content>
+                <img src="assets/botones/Botones Alimentos.png" style="width : 100% ; height : 100%"
+                  (click)="goToPagina2()">
+              </ion-card-content>
+            </ion-col>
+          </ion-row>
+
+
+        </ion-card>
+      </ion-card>
+    </div>
+
+  </ion-infinite-scroll>
+</ion-content>

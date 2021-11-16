@@ -1,0 +1,98 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: White;"></ion-menu-button>
+    </ion-buttons>
+    <ion-button fill="clear" style="display: block;">
+      <p style="font-size: 15px; font-weight: bold; color: White;">
+        Creacion de Negocio
+      </p>
+    </ion-button>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon style="color: White;" name="cart"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-row class='logo-container ion-justify-content-center ion-align-items-center'>
+    <img style="width: 25%;" src="assets/logos/logoazul.png" alt="">
+  </ion-row>
+
+  <form [formGroup]="createbusinessForm" (ngSubmit)="onSubmit(createbusinessForm.value)">
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'><span
+        class='label-input ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='businessname' placeholder="Nombre del Negocio">
+          <ion-icon style="color: #0066f9;" name="person-outline"> </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'><span
+        class='label-input ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='businessdirection' placeholder="Direccion del negocio">
+          <ion-icon style="color: #0066f9;" name="compass-outline"> </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'><span
+        class='label-input ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='ownerphone' placeholder="Numero del Dueño" maxlength="11">
+          <ion-icon style="color: #0066f9;" name="call-outline"> </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <div style="text-align: center;">
+      <span style="font-size: 18px;
+      font-weight: bold;
+      text-align: center;">Sube una foto o logo de tu negocio!</span>
+    </div>
+    <div style="margin-top: -15px; padding-bottom: 0; display: flex; justify-content: space-evenly;"
+      class="ion-padding">
+      <div *ngIf="!imgUrl" class="image-upload profile-img"
+        style="justify-content: center; background-color: white; border: 3px solid #000 !important;">
+        <label>
+          <ion-thumbnail>
+            <img src="assets/logos/logoazul.png">
+          </ion-thumbnail>
+        </label>
+      </div>
+
+      <div *ngIf="imgUrl" class="image-upload profile-img" style="border: 3px solid #000 !important;">
+        <label>
+          <ion-thumbnail>
+            <img src="{{imgUrl}}">
+          </ion-thumbnail>
+        </label>
+      </div>
+
+      <ion-col size="5" style=" margin-top: 30px;">
+        <ion-button fill="clear" lines="none" class="form-control ion-no-padding"
+          style="background-color: white; height: 50px; width: 50px;">
+          <ion-icon name="arrow-up" style="color: #0066f9;"></ion-icon>
+          <input type="file" accept=".jpg,.jpeg,.png" (change)="upload($event)" />
+        </ion-button>
+      </ion-col>
+    </div>
+
+    <ion-row class="ion-justify-content-center">
+      <ion-col size="7">
+        <ion-button expand="block" fill="clear" class="login_btn" type="submit" style="    border: 2px solid black;">
+          <span style="color: #d92e1e;">Create Profile</span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+  </form>
+
+
+</ion-content>

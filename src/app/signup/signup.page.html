@@ -1,0 +1,102 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button class='back-btn' defaultHref='/login'></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-row class='logo-container ion-justify-content-center ion-align-items-center'>
+    <img style="width: 25%;" src="assets/logos/logoazul.png" alt="">
+  </ion-row>
+
+  <form [formGroup]='registerForm'>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'><span
+        class='label-input ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='name' placeholder="Nombre">
+          <ion-icon name="person-outline">
+          </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='lastname' placeholder='Apellido'>
+          <ion-icon name="person-outline">
+          </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input label-2 ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='mail' placeholder='Correo electrónico'>
+          <ion-icon name="mail-outline">
+
+          </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input label-2 ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='phone' placeholder='Telefono'>
+          <ion-icon name="call-outline">
+          </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input label-2 ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input formControlName='direction' placeholder='Direccion'>
+          <ion-icon name="earth-outline">
+
+          </ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input label-3 ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input type='password' formControlName='password' placeholder="Contraseña">
+          <ion-icon name="key-outline"></ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'> <span
+        class='label-input label-4 ion-text-end'></span>
+      <ion-item class='ipt'>
+        <ion-input type='password' formControlName='confirm' placeholder="Confirmar Contraseña">
+          <ion-icon name="key-outline"></ion-icon>
+        </ion-input>
+      </ion-item>
+    </ion-row>
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'>
+      <ion-button (click)='register()' class='register ion-text-uppercase' shape='round' expand='block'>Crear cuenta
+      </ion-button>
+
+
+    </ion-row>
+
+  </form>
+
+  <div style="text-align: center;">
+    <p>Al Crear una cuenta esta aceptando <br />nuestros Terminos y Condiciones.</p>
+
+  </div>
+</ion-content>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">pagomaracay</string>
+    <string name="title_activity_main">pagomaracay</string>
+    <string name="package_name">com.compripago.devshelter</string>
+    <string name="custom_url_scheme">com.compripago.devshelter</string>
+</resources>

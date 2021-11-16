@@ -1,0 +1,408 @@
+[{
+    "title": "Papel higiénico k-SA 4",
+    "image": "./assets/productos/higiene/producto (1).png",
+    "category": "Higiene",
+    "price": 1.50,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Pañales Baby Finger ",
+    "image": "assets/productos/higiene/producto (2).png",
+    "category": "Higiene",
+    "price": 2.74,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Papel higiénico Luciano",
+    "image": "assets/productos/higiene/producto (3).png",
+    "category": "Higiene",
+    "price": 0.88,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Papel higiénico Sutil",
+    "image": "assets/productos/higiene/producto (4).png",
+    "category": "Higiene",
+    "price": 1.36,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Jabón de baño Pure",
+   "image": "assets/productos/higiene/producto (5).png",
+    "category": "Higiene",
+    "price": 0.37,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Cepillo dental Galactic ",
+    "image": "assets/productos/higiene/producto (6).png",
+    "category": "Higiene",
+    "price": 0.32,
+    "pricebulto": 8.46,
+    "stock": 100
+}, {
+    "title": "Shampoo Alive anti-caspa de 350ml",
+    "image": "assets/productos/higiene/producto (7).png",
+    "category": "Higiene",
+    "price": 1.35,
+    "pricebulto": 8.46,
+    "stock": 100 
+}, { 
+     "title": "Shampoo Alive Brillo o Refrescante ",
+    "image": "assets/productos/higiene/producto (8).png",
+    "category": "Higiene",
+    "price": 1.35,
+    "pricebulto": 23.19,
+    "stock": 100 
+ }, {
+  
+    "title": "Shampoo Alive hiervas medicinales ",
+     "image": "assets/productos/higiene/producto (9).png",
+     "category": "Higiene",
+     "price": 1.51,
+     "pricebulto": 14.83,
+     "stock": 100 
+     
+ }, {
+     "title": "Shampoo Pantene Restauración o control de caída ",
+      "image": "assets/productos/higiene/producto (10).png",
+      "category": "Higiene",
+      "price": 1.04,
+      "pricebulto": 25.24,
+      "stock": 100 
+  }, {
+      "title": "Jabón líquido para manos Alive 250ml  ",
+      "image": "assets/productos/higiene/producto (11).png",
+      "category": "Higiene",
+      "price": 0.63,
+      "stock": 100 
+ }, {
+     "title": "Blíster de 18 unidades de desodorante Alive caballero ",
+      "image": "assets/productos/higiene/producto (12).png",
+      "category": "Higiene",
+      "price": 2.24,
+      "stock": 100
+}, {
+     "title": "Blíster de 18 unidades de desodorante Alive para damas ",
+     "image": "assets/productos/higiene/producto (13).png",
+     "category": "Higiene",
+     "price": 2.24,
+     "stock": 100 
+}, {
+     "title": "Desodorante Speed Stick ",
+     "image": "assets/productos/higiene/producto (14).png",
+     "category": "Higiene",
+     "price": 0.15,
+     "pricebulto": 5.01,
+     "stock": 100 
+       
+}, {
+    
+     "title": "Desodorante Lady Speed Stick ",
+     "image": "assets/productos/higiene/producto (15).png",
+     "category": "Higiene",
+     "price": 0.15,
+     "pricebulto": 5.01,
+     "stock": 100 
+ }, {
+     "title": "Desodorante Balance ",
+     "image": "assets/productos/higiene/producto (16).png",
+     "category": "Higiene",
+      "price": 0.14,
+      "pricebulto": 4.20,
+      "stock": 100 
+ }, {
+     "title": "Toallas all-waiya ultra fina ",
+        "image": "assets/productos/higiene/producto (17).png",
+        "category": "Higiene",
+        "price": 0.32,
+        "pricebulto": 19.32,
+        "stock": 100 
+      },
+      {
+        "title": "Detergente DeterK 450gr  ",
+        "image": "assets/productos/higiene/producto (18).png",
+        "category": "Higiene",
+        "price": 0.45,
+        "pricebulto": 23.15,
+        "stock": 100 
+      },
+      {
+        "title": "Detergente Alive de 500gr ",
+        "image": "assets/productos/higiene/producto (19).png",
+        "category": "Higiene",
+        "price": 0.68,
+        "pricebulto": 14.99,
+        "stock": 100 
+      },
+      {
+        "title": "Detergente Vea Clean 900gr ",
+        "image": "assets/productos/higiene/producto (20).png",
+        "category": "Higiene",
+        "price": 0.38,
+        "pricebulto": 15.67,
+        "stock": 100 
+      },
+      {
+        "title": "Suavizante Suavitel de 200ml ",
+        "image": "assets/productos/higiene/producto (21).png",
+        "category": "Higiene",
+        "price": 0.46,
+        "pricebulto": 23.60,
+        "stock": 100
+      },
+      {
+        "title": "Crema dental América ",
+        "image": "assets/productos/higiene/producto (22).png",
+        "category": "Higiene",
+        "price": 0.35,
+        "pricebulto": 3.92,
+        "stock": 100 
+      },
+      {
+        "title": "Crema dental Alident verde o azul ",
+        "image": "assets/productos/higiene/producto (23).png",
+        "category": "Higiene",
+        "price": 0.66,
+        "pricebulto": 7.60,
+        "stock": 100 
+      },
+      { 
+        "title": "Crema dental Cronetl Max fresh ",
+        "image": "assets/productos/higiene/producto (24).png",
+        "category": "Higiene",
+        "price": 0.30,
+        "pricebulto": 3.59,
+        "stock": 100 
+    },
+    {
+
+
+        
+           
+            "title": "Chupeta Bin bom XXL de mango",
+            "image": "assets/productos/alimentos/producto (1).png",
+            "category": "Alimentos",
+            "price": 4.02,
+            "stock": 100 
+            
+          },
+          {
+           
+            "title": "Galletas de Soda ",
+            "image": "assets/productos/alimentos/producto (2).png",
+            "category": "Alimentos",
+            "price": 1.30,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Chupeta Big Bom XXL Choco-Caramelo",
+            "image": "assets/productos/alimentos/producto (3).png",
+            "category": "Alimentos",
+            "price": 4.02,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Chupeta Big Bom XXL White",
+            "image": "assets/productos/alimentos/producto (4).png",
+            "category": "Alimentos",
+            "price": 3.70,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Chupeta Big Bom XXL Espacial ",
+            "image": "assets/productos/alimentos/producto (5).png",
+            "category": "Alimentos",
+            "price": 15,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Chupeta Pin Pop Bumba Gigante ",
+            "image": "assets/productos/alimentos/producto (6).png",
+            "category": "Alimentos",
+            "price": 2.02,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Leche Condensada Natulac ",
+            "image": "assets/productos/alimentos/producto (7).png",
+            "category": "Alimentos",
+            "price": 0.51,
+            "pricebulto":11.42,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Fructus caja de 15 unidades",
+            "image": "assets/productos/alimentos/producto (8).png",
+            "category": "Alimentos",
+            "price": 1.60,
+            "pricebulto": 13.13,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Leche en polvo Do Bon de 120gr",
+            "image": "assets/productos/alimentos/producto (9).png",
+            "category": "Alimentos",
+            "price": 0.72,
+            "pricebulto": 53.38,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Leche en polvo Primalatte",
+            "image": "assets/productos/alimentos/producto (10).png",
+            "category": "Alimentos",
+            "price": 1.70,
+            "pricebulto": 39.42,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Azúcar Montalban de un 1kl",
+            "image": "assets/productos/alimentos/producto (11).png",
+            "category": "Alimentos",
+            "price": 0.72,
+            "pricebulto": 13.28,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Café Della nona ",
+            "image": "assets/productos/alimentos/producto (12).png",
+            "category": "Alimentos",
+            "price": 15,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Harina de Maíz Las Tres Virgenes ",
+            "image": "assets/productos/alimentos/producto (13).png",
+            "category": "Alimentos",
+            "price": 0.87,
+            "pricebulto": 16.93,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Harina de Maíz Doña Belén",
+           "image": "assets/productos/alimentos/producto (14).png",
+           "category": "Alimentos",
+           "price": 0.84,
+           "pricebulto": 16.60,
+           "stock": 100 
+          },
+          {
+        
+            "title": "Azúcar Premire de 1kl ",
+            "image": "assets/productos/alimentos/producto (15).png",
+            "category": "Alimentos",
+            "price": 0.86,
+            "pricebulto": 7.98,
+            "stock": 100 
+          },
+          {
+        
+            "title": "Harina de trigo leudante Finna ",
+            "image": "assets/productos/alimentos/producto (16).png",
+            "category": "Alimentos",
+            "price": 0.95,
+            "pricebulto": 8.72,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Harina de Trigo todo uso San Jorge ",
+            "image": "assets/productos/alimentos/producto (17).png",
+            "category": "Alimentos",
+            "price": 0.74,
+            "pricebulto": 13.84,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Arroz Bellini tipo 1 ",
+            "image": "assets/productos/alimentos/producto (18).png",
+            "category": "Alimentos",
+            "price": 0.79,
+            "pricebulto": 17.59,
+            "stock": 100 
+          },
+          {
+          
+            "title": "Pasta Larga Oba 500gr ",
+            "image": "assets/productos/alimentos/producto (19).png",
+            "category": "Alimentos",
+            "price": 0.56,
+            "pricebulto": 6.31,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Café Gourmet El Peñon",
+            "image": "assets/productos/alimentos/producto (20).png",
+            "category": "Alimentos",
+            "price": 1.43,
+            "pricebulto": 16.08,
+            "stock": 100 
+          },
+          {
+        
+            "title": "Arroz Mary Tradicional",
+            "image": "assets/productos/alimentos/producto (21).png",
+            "category": "Alimentos",
+            "price": 0.91,
+            "pricebulto": 20.67,
+            "stock": 100 
+          },
+          {
+          
+            "title": "Galleta Maria Italia",
+            "image": "assets/productos/alimentos/producto (22).png",
+            "category": "Alimentos",
+            "price": 0.81,
+            "pricebulto": 8.98,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Pasta Sindoni Tallarines ",
+            "image": "assets/productos/alimentos/producto (23).png",
+            "category": "Alimentos",
+            "price": 0.56,
+            "pricebulto": 6.31,
+            "stock": 100 
+          },
+          {
+           
+            "title": "Sardina Margarita 60gr",
+            "image": "assets/productos/alimentos/producto (24).png",
+            "category": "Alimentos",
+            "price": 0.75,
+            "pricebulto": 10.30,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Salsa de Tomate Q'si-zón ",
+            "image": "assets/productos/alimentos/producto (25).png",
+            "category": "Alimentos",
+            "price": 0.71,
+            "pricebulto": 6.75,
+            "stock": 100 
+          },
+          {
+            
+            "title": "Néctar de Manzana Six-Pack",
+            "image": "assets/productos/alimentos/producto (26).png",
+            "category": "Alimentos",
+            "price": 1.84,
+            "stock": 100 
+          }
+    ]

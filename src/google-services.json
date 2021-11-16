@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "602225825407",
+    "project_id": "pago-maracay-5b220",
+    "storage_bucket": "pago-maracay-5b220.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602225825407:android:d4f999ee8c9a598b86d14a",
+        "android_client_info": {
+          "package_name": "com.compripago.devshelter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602225825407-62a1i1tb3917cv9i0ehd1pblp0l7cuot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3SnsaHSDBSTtr6n6NxFUZix0k-gWS7us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602225825407-62a1i1tb3917cv9i0ehd1pblp0l7cuot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

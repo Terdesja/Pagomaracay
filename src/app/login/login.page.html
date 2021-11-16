@@ -1,0 +1,41 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row class='logo-container ion-justify-content-center ion-align-items-center'>
+    <img src="assets/logos/logoazul.png" alt="">
+  </ion-row>
+
+  <form  [formGroup]="loginForm" >
+
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'>
+    <ion-item lines="none" class='ipt'>
+    <ion-input formControlName="email" type="email"  placeholder="Ingrese su correo electronico">
+      <ion-icon   name="person" slot='start'></ion-icon>
+    </ion-input>
+ </ion-item>
+</ion-row>
+
+<ion-row class='input-container ion-justify-content-center ion-align-items-center'>
+  <ion-item lines="none" class='ipt'>
+    <ion-input formControlName="password" type="password"  placeholder="Ingrese su contraseña">
+      <ion-icon  name="lock-closed" slot='start'></ion-icon>
+    </ion-input>
+  </ion-item>
+</ion-row>
+    <ion-row class='input-container ion-justify-content-center ion-align-items-center'>
+     
+    <ion-button (click)='login()' class='ion-text-uppercase' expand="block" shape="round">Iniciar sesion</ion-button>
+  
+  </ion-row>
+
+<ion-row class='input-container ion-justify-content-center ion-align-items-center'>
+ 
+<ion-button routerLink="/signup" [queryParams]="" class='ion-text-uppercase' expand="block" shape="round">Registrate</ion-button>
+
+</ion-row>
+  </form>
+</ion-content>

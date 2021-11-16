@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button style="color: White;"></ion-menu-button>
+    </ion-buttons>
+    <ion-button fill="clear" style="display: block;">
+      <p style="font-size: 15px; font-weight: bold; color: White;">
+        Mapa
+      </p>
+    </ion-button>
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/car']">
+        <ion-icon style="color: White;" name="cart" ></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div #map id="map">
+   
+  </div>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" style="background-color: #046edc;">
+      <ion-tab-button style="background-color: #046edc;" (click)="goToHome()">
+        <ion-icon style="color: white;" name="home"></ion-icon>
+        <ion-label style="color: white;">Inicio</ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button style="background-color: #046edc;" tab="maps" [routerLink]="['/maps']">
+        <ion-icon style="color: white;" name="map"></ion-icon>
+        <ion-label style="color: white;">Map</ion-label>
+      </ion-tab-button>
+      <ion-tab-button style="background-color: #046edc;" (click)="goToProducts()">
+        <ion-icon style="color: white;" name="cart"></ion-icon>
+        <ion-label style="color: white;">Products</ion-label>
+      </ion-tab-button>
+      <ion-tab-button style="background-color: #046edc;" tab="about">
+        <ion-icon style="color: white;" name="information-circle"></ion-icon>
+        <ion-label style="color: white;">About</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

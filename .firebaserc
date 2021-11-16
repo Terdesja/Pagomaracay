@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "free-trade-2be0d": {
+      "hosting": {
+        "app": [
+          "free-trade-2be0d"
+        ]
+      }
+    }
+  }
+}
